@@ -1,0 +1,23 @@
+body {
+  background-color: #bcd9f4;
+  color: #2e120f;
+}
+
+.inner-container {
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: solid 1px #fff6cd;
+}
+
+input:hover {
+  border: 1.2px solid #2e120f;
+  cursor: pointer;
+}
