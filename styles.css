@@ -3,9 +3,42 @@ body {
   color: #2e120f;
 }
 
+h1 {
+  text-align: center;
+}
+
 .inner-container {
   background-color: white;
   border-radius: 1.5rem;
+  box-shadow: #2e120f 1rem 0.75rem 0.5rem;
+  height: 75vh;
+  margin-left: 4%;
+  width: 90vw;
+}
+
+.header {
+  margin-left: 12%;
+  padding-top: 4%;
+}
+
+.header > a {
+  margin-right: 3rem;
+}
+
+.content {
+  justify-content: space-evenly;
+}
+
+.left-container {
+  height: 40vh;
+  margin-top: 5%;
+  width: 40vh;
+}
+
+.right-container {
+  height: 40vh;
+  margin-top: 15%;
+  width: 40vh;
 }
 
 a {
@@ -14,7 +47,8 @@ a {
 
 a:hover {
   cursor: pointer;
-  text-decoration: solid 1px #fff6cd;
+  text-decoration: underline dotted #fff6cd;
+  text-decoration-thickness: 0.5rem;
 }
 
 input:hover {
