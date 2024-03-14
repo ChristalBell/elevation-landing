@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elevation Experience Landing Page</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script></script>
+    <script src="./app.js"></script>
   </head>
   <body>
     <div class="container">
@@ -40,16 +40,36 @@
             <h2>Live your BEST Life for the REST of your Life</h2>
             <p class="accent">Unlock your dream life <strong>Today</strong>!</p>
             <form style="display: flex; flex-direction: column">
-              <input type="text" name="First Name" placeholder="First Name" />
-              <input type="text" name="Last Name" placeholder="Last Name" />
-              <input type="text" name="Email" placeholder="Email Address" />
+              <input
+                id="first-name"
+                type="text"
+                name="First Name"
+                placeholder="First Name"
+              />
+              <input
+                id="last-name"
+                type="text"
+                name="Last Name"
+                placeholder="Last Name"
+              />
+              <input
+                id="email"
+                type="text"
+                name="Email"
+                placeholder="Email Address"
+              />
               <input
                 type="text"
                 name="Phone Number"
                 placeholder="Phone Number (optional)"
               />
-              <input type="button" value="Sign Up" class="button" />
-              <p class="error-message">All required fields must be filled</p>
+              <input
+                type="button"
+                value="Sign Up"
+                class="button"
+                onclick="onSubmit()"
+              />
+              <p id="visibility">All required fields must be filled</p>
             </form>
           </div>
         </div>
