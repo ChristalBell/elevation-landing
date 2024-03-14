@@ -61,11 +61,16 @@ a:hover {
 }
 
 input {
-  border: #2e120f solid 1.75px;
+  border: #bcd9f4 solid 2.5px;
   border-radius: 1.5rem;
   height: 2rem;
   margin: 0.5rem;
   outline: none;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+  color: #2e120f;
 }
 
 .button {
@@ -82,6 +87,15 @@ input {
 }
 
 input:hover {
-  border: 2.5px solid #f58567;
+  border: 2.5px solid #2e120f;
   cursor: pointer;
+}
+
+.error {
+  border: #f16f4b solid 2px;
+}
+
+.error-message {
+  color: #f16f4b;
+  font-weight: 600;
 }
